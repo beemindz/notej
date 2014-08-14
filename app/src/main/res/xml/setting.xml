@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <Preference
+        android:enabled="true"
+        android:key="pref_key_category_sync"
+        android:summary="@string/pref_category_sync_summary"
+        android:title="@string/pref_category_sync_title" >
+    </Preference>
+
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:key="pref_key_vibrator"
+        android:summary="@string/pref_key_auto_vibrator_summary"
+        android:title="@string/pref_key_auto_vibrator_title" />
+
+    <EditTextPreference
+        android:defaultValue="5"
+        android:key="pref_key_snooze_minute"
+        android:summary="@string/pref_key_snooze_minute_summary"
+        android:title="@string/pref_key_snooze_minute_title" />
+
+    <Preference
+        android:enabled="true"
+        android:key="pref_key_change_pass"
+        android:summary="@string/pref_change_pass_summary"
+        android:title="@string/pref_change_pass_title" >
+    </Preference>
+
+</PreferenceScreen>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:id="@+id/linearLayout1"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:orientation="vertical">
+
+  <TabHost
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/tabHost">
+
+    <LinearLayout
+      android:layout_width="fill_parent"
+      android:layout_height="fill_parent"
+      android:orientation="vertical">
+
+      <TabWidget
+        android:id="@android:id/tabs"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+      </TabWidget>
+
+      <FrameLayout
+        android:id="@android:id/tabcontent"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <LinearLayout
+          android:id="@+id/tab1"
+          android:layout_width="fill_parent"
+          android:layout_height="fill_parent"
+          android:gravity="center"
+          android:orientation="horizontal">
+
+          <DatePicker
+            android:id="@+id/datePicker1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+          </DatePicker>
+
+        </LinearLayout>
+
+        <LinearLayout
+          android:id="@+id/tab2"
+          android:layout_width="fill_parent"
+          android:layout_height="fill_parent"
+          android:gravity="center"
+          android:orientation="horizontal">
+
+          <TimePicker
+            android:id="@+id/timePicker1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            >
+          </TimePicker>
+
+        </LinearLayout>
+
+      </FrameLayout>
+    </LinearLayout>
+  </TabHost>
+
+  <LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:gravity="center">
+
+    <Button
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_weight="0.5"
+      android:text="@string/button_remove"
+      android:id="@+id/btnDialogCancel"/>
+
+    <Button
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_weight="0.5"
+      android:text="@string/button_save"
+      android:id="@+id/btnDialogSave"/>
+  </LinearLayout>
+
+
+</LinearLayout>

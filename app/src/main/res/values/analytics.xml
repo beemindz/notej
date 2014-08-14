@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="TypographyDashes">
+
+    <!-- Replace placeholder ID with your tracking ID -->
+    <string name="ga_trackingId">UA-53121675-2</string>
+
+    <!-- Enable automatic activity tracking -->
+    <bool name="ga_autoActivityTracking">true</bool>
+
+    <!-- Enable automatic exception tracking -->
+    <bool name="ga_reportUncaughtExceptions">true</bool>
+    <!-- The screen names that will appear in your reporting -->
+    
+    <string name="com.beemindz.miyotee.activity.MainActivity">MainActivity</string>
+    <string name="com.beemindz.miyotee.activity.SignUpActivity">SignUpActivity</string>
+    <string name="com.beemindz.miyotee.activity.SettingActivity">SettingActivity</string>
+    <string name="com.beemindz.miyotee.activity.TaskEditorActivity">TaskEditorActivity</string>
+    <string name="com.beemindz.miyotee.activity.TaskListActivity">TaskListActivity</string>
+
+    <!--
+   The inverval of time after all the collected data
+   should be sent to the server, in seconds.
+    -->
+    <integer name="ga_dispatchPeriod">30</integer>
+    <string name="ga_logLevel">verbose</string>
+</resources>

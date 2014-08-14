@@ -1,0 +1,208 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             tools:context="com.beemindz.notej.activity.fragment.TaskEditorFragment"
+             android:background="@color/app_background"
+  >
+
+  <ScrollView
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="50dp">
+
+    <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:orientation="vertical">
+
+      <EditText
+        android:id="@+id/etName"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="60dp"
+        android:background="@color/item_background"
+        android:ems="10"
+        android:gravity="center_vertical|center"
+        android:hint="@string/task_name"
+        android:textColor="@android:color/black"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textColorHint="#4d4d4d">
+
+        <requestFocus/>
+      </EditText>
+
+      <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/item_background"
+        android:layout_marginTop="1dp">
+        <EditText
+          android:id="@+id/etDescription"
+          android:layout_width="fill_parent"
+          android:layout_height="wrap_content"
+          android:minHeight="120dp"
+          android:background="@color/item_background"
+          android:ems="10"
+          android:gravity="top"
+          android:hint="@string/task_description"
+          android:minLines="5"
+          android:scrollbars="vertical"
+          android:textColor="@android:color/black"
+          android:textSize="20sp"
+          android:layout_marginTop="1dp"
+          android:textColorHint="#4d4d4d"
+          android:layout_marginRight="5dp"
+          android:layout_marginLeft="5dp"/>
+        </RelativeLayout>
+
+
+      <RelativeLayout
+        android:id="@+id/layoutDueDate"
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:background="@color/item_background"
+        android:gravity="center"
+        android:layout_marginTop="1dp">
+
+        <TextView
+          android:id="@+id/textView1"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_alignParentLeft="true"
+          android:layout_centerVertical="true"
+          android:layout_marginLeft="5dp"
+          android:text="@string/due_date"
+          android:textColor="@android:color/black"
+          android:textStyle="bold"/>
+
+        <TextView
+          android:id="@+id/tvDueDate"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_centerVertical="true"
+          android:gravity="center"
+          android:layout_centerHorizontal="true"
+          android:layout_toLeftOf="@+id/btnSelectDate"
+          android:layout_toRightOf="@+id/textView1"
+          android:textColor="@android:color/black"
+          android:textStyle="bold"/>
+
+        <ImageButton
+          android:id="@+id/btnSelectDate"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_alignParentRight="true"
+          android:layout_centerVertical="true"
+          android:src="@drawable/ic_date_picker_black"
+          android:background="@color/item_background"
+          android:minHeight="64dip"
+          android:minWidth="64dip"
+          android:contentDescription="@string/app_name"/>
+
+      </RelativeLayout>
+
+      <RelativeLayout
+        android:id="@+id/layoutReminderDate"
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:background="@color/item_background"
+        android:gravity="center"
+        android:layout_marginTop="1dp">
+
+        <TextView
+          android:id="@+id/textView2"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_alignParentLeft="true"
+          android:layout_centerVertical="true"
+          android:layout_marginLeft="5dp"
+          android:text="@string/tv_task_set_reminder"
+          android:textColor="@android:color/black"
+          android:textStyle="bold"/>
+
+        <TextView
+          android:id="@+id/tvReminderDate"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_centerVertical="true"
+          android:gravity="center"
+          android:layout_centerHorizontal="true"
+          android:layout_toLeftOf="@+id/btnSelectTime"
+          android:layout_toRightOf="@+id/textView2"
+          android:textColor="@android:color/black"
+          android:textStyle="bold"/>
+
+        <ImageButton
+          android:id="@+id/btnSelectTime"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_alignParentRight="true"
+          android:layout_centerVertical="true"
+          android:src="@drawable/ic_time_picker_black"
+          android:background="@color/item_background"
+          android:minHeight="64dip"
+          android:minWidth="64dip"
+          android:contentDescription="@string/app_name"/>
+
+      </RelativeLayout>
+
+      <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:gravity="center"
+        android:background="@color/item_background"
+        android:layout_marginTop="1dp">
+
+        <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_alignParentLeft="true"
+          android:layout_centerVertical="true"
+          android:layout_marginLeft="5dp"
+          android:gravity="left"
+          android:text="@string/tv_task_set_complete"
+          android:textColor="@android:color/black"
+          android:textStyle="bold"/>
+
+        <CheckBox
+          android:id="@+id/cbComplete"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_alignParentRight="true"
+          android:layout_centerVertical="true"
+          android:minWidth="55dip"
+          android:button="@drawable/custom_drawable_checkbox"/>
+
+      </RelativeLayout>
+
+      <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:background="@color/item_background"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_marginTop="1dp">
+
+        <Button
+          android:id="@+id/btnDeleteTask"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:background="@color/item_background"
+          android:drawableLeft="@drawable/ic_delete_black"
+          android:text="@string/menu_delete"
+          android:textColor="@android:color/black"/>
+      </LinearLayout>
+    </LinearLayout>
+  </ScrollView>
+
+  <LinearLayout
+    android:id="@+id/linearEditor"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="bottom"
+    android:orientation="vertical">
+  </LinearLayout>
+
+</FrameLayout>

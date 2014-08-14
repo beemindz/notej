@@ -1,0 +1,148 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.beemindz.notej.activity.fragment.AboutFragment">
+
+  <LinearLayout
+    android:id="@+id/linearAbout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+      android:id="@+id/linearLogo"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:orientation="vertical">
+
+      <View
+        android:layout_width="match_parent"
+        android:layout_height="30dp"/>
+
+      <ImageView
+        android:id="@+id/imgLogo"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/icon_about_logo"/>
+
+      <TextView
+        android:id="@+id/tvAppName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:paddingTop="10dp"
+        android:text="@string/tv_app_name"
+        android:textColor="@color/GREEN_00a550"
+        android:textSize="19sp"/>
+
+      <TextView
+          android:id="@+id/about_tv_version"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/tv_version"
+        android:textColor="@color/GREEN_00a550"
+        android:textSize="15sp"/>
+    </LinearLayout>
+
+    <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_gravity="center"
+      android:orientation="vertical">
+
+      <LinearLayout
+      android:id="@+id/layoutSocial"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_gravity="center"
+      android:gravity="center"
+      android:orientation="vertical"
+      android:paddingLeft="40dp"
+      android:paddingTop="30dp">
+
+      <LinearLayout
+        android:id="@+id/layoutFb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="10dp">
+
+        <ImageView
+          android:id="@+id/imgFb"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:src="@drawable/icon_about_fb"/>
+
+        <TextView
+          android:id="@+id/aboutFbText"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_marginRight="5dp"
+          android:autoLink="web"
+          android:text="@string/tv_fb_address"/>
+      </LinearLayout>
+
+      <LinearLayout
+        android:id="@+id/layoutTwitter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="10dp">
+
+        <ImageView
+          android:id="@+id/imgTw"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:src="@drawable/icon_about_twitter"/>
+
+        <TextView
+          android:id="@+id/aboutTwText"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_marginRight="5dp"
+          android:autoLink="web"
+          android:text="@string/tv_tw_address"/>
+      </LinearLayout>
+
+      <LinearLayout
+        android:id="@+id/layoutWebsite"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+          android:id="@+id/imgWb"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:src="@drawable/icon_about_website"/>
+
+        <TextView
+          android:id="@+id/aboutSiteText"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_marginRight="5dp"
+          android:autoLink="web"
+          android:text="@string/tv_website_address"/>
+      </LinearLayout>
+    </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="0dip"
+      android:layout_weight="1"
+      android:gravity="center|bottom"
+      android:orientation="vertical">
+
+      <TextView
+        android:id="@+id/about_tv_Copyright"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal|center"
+        android:layout_marginBottom="10dp"
+        android:text="@string/tv_about_copyright"
+        android:textColor="@color/GREEN_00a550"/>
+    </LinearLayout>
+
+  </LinearLayout>
+</FrameLayout>

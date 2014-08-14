@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="actionbar_background">#00a54f</color>
+  <color name="app_background">#f5e0ab</color>
+  <color name="item_background">#f9f3c8</color>
+
+
+    <color name="GREEN_00a54f">#00a54f</color>
+    <color name="GREEN_007e3e">#007e3e</color>
+    <color name="GREEN_007338">#007338</color>
+    <color name="GREEN_00a550">#00a550</color>
+    
+    <!-- Background item list task -->
+    <color name="GREEN_07ac4d">#07ac4d</color>
+    <color name="GREEN_56b847">#56b847</color>
+    <color name="GREEN_82c341">#82c341</color>
+    <color name="GREEN_a6ce39">#a6ce39</color>
+    <color name="GREEN_c5d92c">#c5d92c</color>
+    <color name="RED_feb616">#feb616</color>
+    <color name="RED_f9961e">#f9961e</color>
+    <color name="RED_f37521">#f37521</color>
+    <color name="White">#ffffff</color>
+    <color name="RED_f05222">#f05222</color>
+    <color name="RED_ed1b24">#ed1b24</color>
+    <color name="RED_ec0a70">#ec0a70</color>
+    <color name="RED_ed008c">#ed008c</color>
+    <color name="RED_b91c8d">#b91c8d</color>
+    <color name="RED_912690">#912690</color>
+    <color name="BLUE_732b91">#732b91</color>
+    <color name="BLUE_5d2d91">#5d2d91</color>
+    <color name="BLUE_472f91">#472f91</color>
+    <color name="BLUE_2e3192">#2e3192</color>
+    <color name="BLUE_22409a">#22409a</color>
+    <color name="BLUE_014fa2">#014fa2</color>
+    <color name="BLUE_015eac">#015eac</color>
+    <color name="BLUE_0072bb">#0072bb</color>
+    <color name="BLUE_0094da">#0094da</color>
+    <color name="BLUE_00adef">#00adef</color>
+    <color name="BLUE_00abbf">#00abbf</color>
+    <color name="GREEN_01a89e">#01a89e</color>
+    <color name="GREEN_00a86d">#00a86d</color>
+    
+    <!-- Border navigation menu -->
+    <color name="GREEN_006631">#006631</color>
+    
+    <!-- Editor task -->
+    <color name="BLUE_00abc1">#00abc1</color>
+    <color name="BLUE_00aeef">#00aeef</color>
+    <color name="BLUE_0093d8">#0093d8</color>
+    <color name="BLUE_0072bc">#0072bc</color>
+    <color name="BLUE_005ead">#005ead</color>	
+    <color name="BLUE_014fa3">#014fa3</color>
+    <color name="BLUE_223f99">#223f99</color>
+    <color name="textColorHint">#ccc</color>
+
+    <!-- LIST TASK COLOR -->
+    <color name="GREEN_07ad4c">#07ad4c</color>
+    <color name="GREEN_55b847">#55b847</color>
+    <color name="GREEN_81c341">#81c341</color>
+    <color name="GREEN_a5ce39">#a5ce39</color>
+    <color name="GREEN_00a65c">#00a65c</color>
+    <color name="GREEN_00a76d">#00a76d</color>
+    <color name="GREEN_00a99d">#00a99d</color>
+    <color name="BULE_00abc0">#00abc0</color>
+    <color name="BULE_00adef">#00adef</color>
+    <color name="BULE_0094d9">#0094d9</color>
+    <color name="BULE_0072bc">#0072bc</color>
+    <color name="BULE_005eac">#005eac</color>
+    <color name="BULE_014fa3">#014fa3</color>
+    <color name="BULE_223f99">#223f99</color>
+    <color name="BLUE_00abc0">#00abc0</color>
+    <color name="BLUE_0094d9">#0094d9</color>
+    <color name="BLUE_005eac">#005eac</color>
+
+</resources>

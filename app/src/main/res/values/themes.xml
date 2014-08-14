@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+  <!-- the theme applied to the application or activity -->
+  <style name="CustomActionBarTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+
+    <!-- Support library compatibility -->
+    <item name="actionBarStyle">@style/MyActionBar</item>
+    <item name="android:textColorHint">@color/textColorHint</item>
+    <item name="android:textColorLink">@color/GREEN_00a550</item>
+
+  </style>
+
+  <!-- ActionBar styles -->
+  <style name="MyActionBar" parent="Widget.AppCompat.Light.ActionBar.Solid.Inverse">
+
+    <!-- Support library compatibility -->
+    <item name="background">@color/actionbar_background</item>
+    <item name="height">60dp</item>
+
+  </style>
+
+  <style name="Theme.NoActionBar" parent="Theme.AppCompat.Light">
+    <item name="android:windowNoTitle">true</item>
+    <item name="android:windowFullscreen">true</item>
+
+  </style>
+
+</resources>

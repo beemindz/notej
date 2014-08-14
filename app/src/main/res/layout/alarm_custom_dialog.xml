@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+<RelativeLayout 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/GREEN_00a550"
+    android:gravity="top" >
+
+    <ImageView
+        android:id="@+id/imgIconApp"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignParentLeft="true"
+        android:src="@drawable/icon_app" />
+
+    <LinearLayout
+        android:id="@+id/linearTitle"
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/tvTaskTitle"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:gravity="center"
+            android:text="@string/app_name"
+            android:textColor="@android:color/white"
+            android:layout_centerInParent="true"
+            android:textSize="20dp"
+            android:paddingTop="5dp"
+            android:ellipsize="end"
+            android:paddingBottom="5dp"
+            android:textStyle="bold" />
+        
+    </LinearLayout>
+        
+</RelativeLayout>    
+    
+    <RelativeLayout
+        android:id="@+id/relaDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/GREEN_55b847" >
+
+        <TextView
+            android:id="@+id/alarm_description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minHeight="60dp"
+            android:text="@string/hello_world"
+            android:textColor="@android:color/white"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:layout_centerInParent="true"
+            android:padding="5dp"
+            android:textStyle="normal" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/GREEN_81c341" >
+
+        <Button
+            android:id="@+id/btn_snooze"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:layout_toLeftOf="@+id/view"
+            android:background="@color/GREEN_81c341"
+            android:text="@string/dialog_reminder_btn_snooze"
+            android:textColor="@android:color/white"
+            android:textStyle="bold" />
+
+        <View
+            android:id="@+id/view"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:background="@android:color/white" />
+
+        <Button
+            android:id="@+id/btn_cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginLeft="10dp"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:layout_toRightOf="@+id/view"
+            android:background="@color/GREEN_81c341"
+            android:text="@string/dialog_reminder_btn_stop"
+            android:textColor="@android:color/white"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+</LinearLayout>

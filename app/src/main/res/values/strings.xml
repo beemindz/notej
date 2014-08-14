@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">NoteJ</string>
+    <string name="hello_world">Hello world</string>
+    <string name="title_activity_task_list">TASK LIST</string>
+    <string name="title_activity_task_editor">TASK EDITOR</string>
+  <string name="title_activity_sign_up">Sign Up</string>
+  <string name="title_activity_sign_in">Sign In</string>
+  <string name="no_data">Create reminder to me can remind you!!!</string>
+    <string name="send">Send</string>
+    <string name="event_completed">Event completed</string>
+    <string name="today">Today</string>
+    <string name="tomorrow">Tomorrow</string>
+    <string name="sunday">Sunday</string>
+    <string name="monday">Monday</string>
+    <string name="tuesday">Tuesday</string>
+    <string name="wednesday">Wednesday</string>
+    <string name="thursday">Thursday</string>
+    <string name="friday">Friday</string>
+    <string name="saturday">Saturday</string>
+
+    <!-- LAYOUT LOGIN -->
+    <string name="username">Email</string>
+    <string name="password">Password</string>
+    <string name="fullname">Fullname</string>
+    <string name="login">Sign In</string>
+    <string name="register">Sign Up</string>
+    <string name="link_to_register_screen">Do you have an account? Sign up now!</string>
+    <string name="link_to_login_screen">Do you have already an account? Sign in!</string>
+    <string name="link_open_forgot_pass_dialog">You are forgot password?</string>
+
+    <!-- LAYOUT TASK EDITOR -->
+    <string name="no_reminders">no reminder</string>
+    <string name="task_name">Name</string>
+    <string name="task_description">Description</string>
+    <string name="due_date">DUE DATE</string>
+    <string name="date">DATE</string>
+    <string name="time">TIME</string>
+    <string name="task_saved_message">Success</string>
+    <string name="dialog_choose_due_date_title">Due date</string>
+    <string name="dialog_choose_reminder_title">Reminder</string>
+
+    <!-- MENU -->
+    <string name="menu_insert">Insert</string>
+    <string name="menu_open">Detail</string>
+    <string name="menu_delete">Delete</string>
+    <string name="menu_edit">Update</string>
+    <string name="menu_save">Save</string>
+    <string name="menu_sign_out">Sign Out</string>
+
+    <!-- TOAST MESSAGE -->
+    <string name="toast_err_login_username_required">Please input email!</string>
+    <string name="toast_err_login_pass_required">Please input password!</string>
+    <string name="toast_err_login_re_pass_same_pass">Please input re-password same password!</string>
+    <string name="toast_err_task_name_required">Please input job name!</string>
+    <string name="toast_err_task_description_required">Please input content!</string>
+    <string name="toast_err_task_date_time_required">Please input date and time!</string>
+    <string name="toast_msg_task_delete_success">Delete succes.</string>
+    <string name="toast_msg_task_delete_failed">Delete failed.</string>
+    <string name="toast_msg_reminder_snooze"><b>%1$s</b> snoozed for %2$d minutes</string>
+    <string name="toast_err_forgot_pass_email_required">Please input email address!</string>
+    <string name="toast_err_system">Error system!</string>
+    <string name="toast_err_forgot_pass_send_email_succes">You will receiver a email change password in a few minutes!</string>
+    <string name="toast_err_email_invalid">Email invalid? Ex:youemail@domain.com</string>
+    <string name="toast_err_email_or_pass_incorrect">Login failed. Incorrect email/password.</string>
+    <string name="toast_msg_change_password_success">Change password success!</string>
+    <string name="toast_msg_change_password_failed">Change password failed!</string>
+    <string name="toast_msg_network_not_connect">Please connect to network!</string>
+
+    <!-- EDIT TEXT -->
+    <string name="et_hint_task_title">Add an event…</string>
+
+    <!-- TEXT VIEW -->
+    <string name="tv_task_not_reminder">Never to limit.</string>
+    <string name="tv_task_set_reminder">REMINDER</string>
+    <string name="tv_about_content">Content about</string>
+    <string name="tv_task_set_complete">DONE</string>
+
+    <!-- NAVIGATION MENU -->
+    <string name="drawer_open">Open navigation dra</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    <string name="sign_up_to_sync">Sign up to sign</string>
+    <string name="drawer_action_sync">Sync</string>
+    <string name="drawer_action_signout">Sign out</string>
+    <string name="item_sign_in_to_sync">Sign in to sync</string>
+    <string name="fb_app_id">1468865693362597</string>
+    <string name="setting">Setting</string>
+    <string name="like_us_fb">Like us on Facebook</string>
+
+    <!-- Confirm dialog delete -->
+    <string name="confirm_delete_task">Are you sure?</string>
+
+    <!-- Dialog reminder -->
+    <string name="dialog_reminder_title">NoteJ Reminder</string>
+    <string name="dialog_reminder_btn_snooze">SNOOZE</string>
+    <string name="dialog_reminder_btn_stop">STOP</string>
+
+    <!-- ABOUT ACTIVITY -->
+    <string name="tv_app_name">NOTEJ</string>
+    <string name="tv_version">Version 1.0</string>
+    <string name="tv_fb_address">https://www.facebook.com/beemindzgroup</string>
+    <string name="tv_tw_address">https://www.twitter.com/beemindz</string>
+    <string name="tv_website_address">http://www.beemindz.com</string>
+    <string name="tv_about_copyright">©2014 Beemindz.com</string>
+
+    <!-- CONFIG ADMOD -->
+    <string name="admod_unit_id">ca-app-pub-8021202070896817/5741420082</string>
+    <string name="admod_unit_name">Bottom Banner</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_list">List</string>
+    <string name="title_about">About</string>
+    <string name="title_section2">Section 2</string>
+    <string name="title_section3">Section 3</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_example">Example action</string>
+
+    <!-- SETTING -->
+    <string name="pref_key_auto_vibrator_summary">Set vibrator</string>
+    <string name="pref_key_auto_vibrator_title">Vibrator</string>
+    <string name="pref_key_snooze_minute_summary">Set snooze (minute)</string>
+    <string name="pref_key_snooze_minute_title">Snooze</string>
+    <string name="pref_category_sync_title">Online Sync</string>
+    <string name="pref_category_sync_summary">sign in to sync task</string>
+    <string name="pref_category_sync_signIn_title">Sign In</string>
+    <string name="pref_category_sync_signOut_title">Sign Out</string>
+    <string name="setting_confirm_title_sign_out">Sign out</string>
+    <string name="setting_confirm_message_sign_out">Do you want to sign out?</string>
+    <string name="pref_category_sync_lable_you_online">You are online.</string>
+    <string name="pref_change_pass_title">Change password</string>
+    <string name="pref_change_pass_summary">Do you want to change password?</string>
+
+    <!-- DIALOG FORGOT PASSWORD -->
+    <string name="dialog_forgot_pass_title">Forgot your password?</string>
+    <string name="dialog_forgot_pass_tv_username_email">Email</string>
+
+    <!-- CONTENT EMAIL -->
+    <string name="email_forgot_pass_title">[NoteJ] - User forgot password</string>
+    <string name="email_forgot_pass_content">You are forgot password. Your password is 123456. Please change password!</string>
+
+    <!-- CHANGE PASSWORD -->
+    <string name="change_pass_title">Change Password</string>
+    <string name="change_pass_repassword">Re-Passwrod</string>
+
+    <!-- DIALOG -->
+    <string name="button_save">Save</string>
+    <string name="button_remove">Remove</string>
+    <string name="title_activity_change_pass">ChangePassActivity</string>
+    <string name="action_settings">Settings</string>
+
+    <!--CHANGE PASSWORD-->
+    <string name="old_password">Old password</string>
+    <string name="new_password">New password</string>
+    <string name="re_new_password">Re-new password</string>
+
+</resources>
